@@ -8,8 +8,12 @@ tags: [ITI]
 author: Roni
 ---
 
-<object data="/assets/pdf/iti-firstyear-suggestion.pdf#view=FitBH&toolbar=0&navpanes=0&scrollbar=0&pagemode=none&zoom=page-fit" type="application/pdf">
-<p>Unable to display PDF file. <a href="/assets/pdf/iti-firstyear-suggestion.pdf">Download</a> instead.</p>
+<object 
+  data="{{ '/assets/pdf/iti-firstyear-suggestion.pdf' | relative_url }}#view=FitBH&toolbar=0&navpanes=0&scrollbar=0&pagemode=none&zoom=page-fit" 
+  type="application/pdf">
+  <p>Unable to display PDF file. 
+    <a href="{{ '/assets/pdf/iti-firstyear-suggestion.pdf' | relative_url }}">Download</a> instead.
+  </p>
 </object>
 
 
