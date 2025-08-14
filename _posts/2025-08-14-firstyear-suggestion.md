@@ -12,12 +12,13 @@ author: Roni
   </p>
 
   
-<iframe 
-  src="https://docs.google.com/viewer?url={{ site.url }}{{ '/assets/pdf/iti-firstyear-suggestion.pdf' | relative_url }}&embedded=true" 
-  width="100%" 
-  height="800px" 
-  style="border:none;">
-</iframe>
+     
+   <iframe 
+    src="https://docs.google.com/viewer?url=https://roniui.github.io/assets/pdf/iti-firstyear-suggestion.pdf&embedded=true" 
+    width="100%" 
+    height="800px" 
+    style="border: none;">
+  </iframe>
   
 
 
