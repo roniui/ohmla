@@ -13,7 +13,6 @@ author: Roni
 </object>
 
 
-
 <hr>
 <div class="text-center text-muted mt-3">
   Found a mistake or mismatch in the question or answer? 
