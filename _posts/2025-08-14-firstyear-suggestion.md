@@ -7,14 +7,18 @@ categories: [1st year]
 tags: [ITI]
 author: Roni
 ---
-
-<object 
-  data="{{ '/assets/pdf/iti-firstyear-suggestion.pdf' | relative_url }}#view=FitBH&toolbar=0&navpanes=0&scrollbar=0&pagemode=none&zoom=page-fit" 
-  type="application/pdf">
-  <p>Unable to display PDF file. 
+<p>Unable to display PDF file. 
     <a href="{{ '/assets/pdf/iti-firstyear-suggestion.pdf' | relative_url }}">Download</a> instead.
   </p>
-</object>
+
+  
+<iframe 
+  src="https://docs.google.com/viewer?url={{ site.url }}{{ '/assets/pdf/iti-firstyear-suggestion.pdf' | relative_url }}&embedded=true" 
+  width="100%" 
+  height="800px" 
+  style="border:none;">
+</iframe>
+  
 
 
 <hr>
