@@ -8,7 +8,12 @@ tags: [ITI]
 author: Roni
 ---
 <p>Unable to display PDF file. 
-    <a href="{{ '/assets/pdf/iti-firstyear-suggestion.pdf' | relative_url }}">Download</a> instead.
+    <a 
+  href="https://raw.githubusercontent.com/roniui/ohmla/main/assets/pdf/iti-firstyear-suggestion.pdf" 
+  download 
+  style="display: inline-block; background-color: #007bff; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none;">
+  Download PDF
+    </a>
   </p>
 
   
