@@ -28,13 +28,27 @@ layout: compress
       "name": "1st Year",
       "short_name": "1st Year",
       "description": "Open 1st Year page",
-      "url": "{{ '/firstyear/' | relative_url }}"
+      "url": "{{ '/firstyear/' | relative_url }}",
+    "icons": [
+      {
+        "src": "{{ favicon_path }}/firstyear-shortcut.png",
+        "sizes": "1024x1024",
+        "type": "image/png"
+      }
+    ]
     },
     {
       "name": "2nd Year",
       "short_name": "2nd Year",
       "description": "Open 2nd Year page",
-      "url": "{{ '/secondyear/' | relative_url }}"
+      "url": "{{ '/secondyear/' | relative_url }}",
+    "icons": [
+      {
+        "src": "{{ favicon_path }}/secondyear-shortcut.png",
+        "sizes": "1024x1024",
+        "type": "image/png"
+      }
+    ]
     }
   ]
 }
